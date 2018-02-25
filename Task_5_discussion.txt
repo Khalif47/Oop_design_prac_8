@@ -1,0 +1,15 @@
+Linked List:
+
+The linked list implementation is a better option in terms of resizing, it very efficient in appending as does not
+require resizing which would take up a complexity of O(N)
+
+Also for inserting and deleting the linked node and array based list would have the same worst complexity in terms of searching
+which is O(N) however where they differ is in the best case complexities. The array based list would still maintain 
+O(N) complexity since it requires shuffling all items 1 or back. However for the linked node would be complexity of 
+O(1) since it just relinking the nodes
+
+On the other hand in terms of setting and getting items. Linked nodes would be O(N) as you must search 
+linearly through the entire list example self.head.next loop. The array based list would be O(1) as it just sets. so depending
+on your implementation you can choose which one you would prefer. If your implementation requires a lot of inserting and 
+deleting, appending then a link node would be better however if your implementaion requires setting and getting then 
+array based list would be better.
